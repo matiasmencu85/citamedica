@@ -9,8 +9,8 @@ header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token , Autho
 
 header('Content-Type: application/json');
 
-$pdo=new PDO("mysql:dbname=turnos;host=127.0.0.1","root","");
-
+//$pdo=new PDO("mysql:dbname=turnos;host=127.0.0.1","root","");
+$pdo=new PDO("mysql:dbname=id20043581_turnos;host=localhost","id20043581_medicos","_Kb*qE{K8n]B*Pqw");
 
 
 $accion= (isset($_GET['accion']))?$_GET['accion']:'leer';
